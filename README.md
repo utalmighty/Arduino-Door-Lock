@@ -24,5 +24,5 @@ Hello viewers, here are the instructions to use Electronic Door Lock with Arduin
  
 
 
-<i><b>Tips:</b> Locked Inside?, try to swap Yellow wire(signal/PWM) from PIN (~)3 to PIN 2 it will unlock or you can add a button to do that. 
+<i><b>Tips:</b> Locked Inside?, Try to swap Yellow wire(signal/PWM) of Servo Motor from PIN (~)3 to PIN 2 it will unlock or you can add a button to do that. 
  Use Mobile charger adapter (5V 1Amp) to power the Arduino UNO. Make Arduino unreachable from outside. Always keep a backup door(plan) for any failure. (E.g. Electric cut-off).</i>
