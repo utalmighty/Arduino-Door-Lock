@@ -18,7 +18,7 @@ Hello viewers, here are the instructions to use Electronic Door Lock with Arduin
  
  <i>Step 2:</i> Once Verified, now type in the new session password (4 Digits)(resets once unlocked) all the LEDS will lit up as you type in,and to confirm the PIN again type the same pin and you will see the LEDs turing off, if the password is confirmed press any key to LOCK(it can only be unlocked with current session pin).
 
- <i>Step 3:</i> To unlock type in the current session pin. (if the wrong pin is entered three times a row, (tip: you can also add siren)the input system goes into sleep and wakes up after 10 seconds with a light affects.
+ <i>Step 3:</i> To unlock type in the current session pin. (if the wrong pin is entered three times a row, (tip: you can also add siren)the input system goes into sleep and wakes up after 10 seconds with a light affects.)
  
   <b>Press Reset button on the Arduino for new session.</b>
  
