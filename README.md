@@ -8,7 +8,7 @@ Hello viewers, here are the instructions to use Electronic Door Lock with Arduin
  
  2: <i>Servo Motor:</i> The Yellow wire(signal/PWM) of Servo goes into PIN (~)3, Red wire(+5V) of servo goes into PIN 5V, Brown wire(GND) goes into PIN Gnd.
  
- 3: <i>Animation/Feedback Light(All Same Color recommended):</i> All the LEDs are conneced individually with 200 Ohm resistors(at their negative ends) and grounded at GND PIN of             arduino(to save pins at arduino, ground all the LEDs with resistor into single GRD pin). Positive(+ve) end of LEDs goes into A0, A1, A2, A3(keep the physical order same) eg.       A0 LEd goes to extreme left, A1 LED goes to preceding left and so on.
+ 3: <i>Animation/Feedback Light(All Same Color recommended):</i> Each LEDs are connected with 200 Ohm resistors(at their negative ends) and grounded at GND PIN of             arduino(to save pins at arduino, ground all the LEDs with resistor into single GRD pin). Positive(+ve) end of LEDs goes into A0, A1, A2, A3(keep the physical order same) eg.       A0 LEd goes to extreme left, A1 LED goes to preceding left and so on.
  
  4: <i>Lock/Unlock LEDs(RED for Locked/GREEN for Unlocked):</i> Connect Both LEDs to the same 200 ohm resistor because only single would be operable at a time and ground it in GND PIN.       Positive(+ve) pin of Red LED goes into PIN 4, Green LED goes PIN 5.
  
